@@ -1,0 +1,71 @@
+.contenedor-5 {
+    width: 100%;
+     background-color: #1d1d1d;
+   
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding-bottom: 96px;
+     overflow: hidden;
+
+
+    .contenido-5{
+        width: 80%;
+        min-height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        position: relative;
+        background-color: rgba(237,237,237,.1);
+        background-image: url(../img/textura-bg.png);
+        filter: brightness(.7);
+        border-radius: 35px;
+    
+        
+        h2{
+            width: 310px;
+            text-align: center;
+            font-family: 'Shadows Into Light', cursive;
+            color:white;
+            font-size: 45px;
+            letter-spacing: 6px;
+            margin-bottom: 30px;
+            text-transform: uppercase;
+            background-color: #1d1d1d;
+            border-radius: 12px;
+        }
+
+        
+        .acordeones{
+            display: flex;
+            flex-direction: column;
+            background-color: #1d1d1d;
+            border-radius: 10px;
+
+            .acordeon{
+                width: 700px;
+                border-bottom: 1px solid rgb(238, 79, 233);
+                padding: 20px;
+                margin-bottom: 15px;  
+                display: flex; 
+                align-items: center;
+                font-family: 'Kanit', sans-serif;
+                font-size: 18px;
+                letter-spacing: 1px;
+                summary{
+                    color: white;
+                    cursor: pointer;
+                    text-transform: uppercase;
+                }
+
+                p{
+                    margin-top: 20px;
+                    color:white;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

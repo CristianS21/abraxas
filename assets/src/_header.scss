@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.contenedor-1 {
+    background-color: #1d1d1d;
+}
+
+.contenido-1{
+    
+    header{
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+            .logo{
+            width: 230px;
+            padding: 0 0 0 30px;
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                gap: 0 40px;
+               
+
+                .menu{
+                    display: none;
+                    @media (max-width: 950px){
+                        display: block;
+                        width: 40px;
+                        margin-right: 35px;
+                        &:hover+.lista{
+                            top: 0; 
+                            transition: 1s;                     
+                        }
+                    }
+                }
+                
+                .lista{
+                    @media (max-width: 950px){
+                        display: flex;
+                        flex-direction: column;
+                        position: absolute;
+                        background: #1d1d1d;
+                        z-index: 3;
+                        width: 100%;
+                        top: -250px;
+                        right: 0;
+                        &:hover{
+                            left: 0;
+                            top: 0;
+                         }
+                    }
+                    
+                    a{
+                    position: relative;
+                    background-color: #1d1d1d;
+                    color: #fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    padding: 12px 12px 12px 30px;
+                    transition: .5s;
+                    text-align: center;
+                    border-radius: 8px;
+                    margin: 0 10px;
+                    background: #1d1d1d;
+                    z-index: 2;
+                    &:hover{
+                        letter-spacing: 10px;
+                        background: var(--clr);
+                        color: var(--clr);
+                        }
+                
+                        &::before{   
+                        content: "";
+                        position: absolute;
+                        background-color: #1d1d1d;
+                        inset: 2px;
+                        border-radius: 8px;}
+
+                span{
+                    position: relative;
+                     font-size: 18px;
+                     font-family: 'Shadows Into Light', cursive;
+                    }
+
+                i{
+                    position: absolute;
+                    inset: 0;
+                    display: block;
+                }
+            }
+        }
+    
+            }}
+    
+
+    
+    
+    
+        }

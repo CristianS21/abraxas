@@ -1,0 +1,79 @@
+.footer{
+    height:310px;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 40px 0px 0px;
+    overflow: hidden;
+    position: relative;
+
+    .medusa-1{
+        width: 370px;
+        margin-top: 50px;
+        transform: rotate(30deg);
+        margin-left: -50px;
+    }
+    .medusa-1bis{
+        width: 220px;
+        margin-top: 50px;
+        transform: rotate(5deg);
+        position: absolute;
+        bottom: -50px;
+        left: 220px;
+
+    }
+
+    .medusa-2{
+        width: 370px;
+        margin-top: 50px;
+        margin-right: -20px;
+    }
+    .medusa-2bis{
+        width: 220px;
+        margin-top: 50px;
+        position: absolute;
+        bottom: -50px;
+        right: 230px;
+        transform: rotate(30deg);
+
+    }
+
+    .logo-footer{
+        width: 250px;
+    }
+
+    .trama-izq{
+        width: 200px;
+    }
+
+    .trama-der{
+        width: 200px;
+    }
+
+    .footer-centro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 15px;
+        margin-top: 40px;
+
+        hr{
+            height: 1px;
+            width: 350px;
+            background-color: rgb(73, 244, 16);
+            border: none;
+            margin: 5px 0px 12px;
+        }
+
+        p{
+            font-family: 'Shadows Into Light', cursive;
+            font-size: 20px;
+            text-align: center;
+            letter-spacing: 4px;
+            color: rgb(249, 10, 106);
+        }
+    }
+
+}

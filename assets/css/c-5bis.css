@@ -1,0 +1,22 @@
+.contenedor-5bis {
+  background-color: #e3e3e3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 34px 0 100px;
+}
+.contenedor-5bis .contenido-5bis {
+  width: 100%;
+  display: flex;
+}
+.contenedor-5bis .contenido-5bis .imagenes {
+  background-color: #e3e3e3;
+  display: flex;
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+.contenedor-5bis .contenido-5bis .imagenes img {
+  width: 250px;
+  margin: 0px 5px;
+  box-shadow: 0px 0px 3px rgb(44, 44, 44);
+}
