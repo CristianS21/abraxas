@@ -1,26 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
 
 .contenedor-3{
     background-color: #e3e3e3;
+    padding: 96px 0px;
+    position: relative;
     @media (max-width: 950px){
-
+        padding: 34px 0;
     }
 }
 
 .contenido-3{
     display: flex;
-    position: relative;
+
     @media (max-width: 950px){
         display: flex;
         flex-direction: column-reverse;
-        gap: 50px 0;
+        gap: 5px 0;
     }
 
 
     .c-3-img{
-        width: 55%;
+        width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -29,24 +30,24 @@
             width: 100%;
         }     
         
-        video{
-            width: 55%;  
+        img{
+            width: 92%;  
             position: relative;
-            transform: rotate(270deg);
-            padding-left: 20px;
+            object-fit: cover;
+            box-shadow: 0px 0px 3px black;
             @media (max-width: 950px){
-                width: 80%;
+                width: 95%;
                 padding-left: 0px;
-               margin: 45px 0 60px;
+                margin: 30px 0 60px;
             }
         }
 
         .cruz-azul{
             width: 410px;
             position: absolute;
+            margin-left: 20px;
             bottom: -120px;
             left: 0px;
-            margin-left: 25px;
             @media (max-width: 1100px){
                 display: none;
             }
@@ -54,13 +55,13 @@
     }
 
     .c-3-txt{
-        width: 45%;
+        width: 50%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         padding-left: 20px;
-        position: relative;
+
         @media (max-width: 950px){
             width: 100%;
             margin-top: 55px;
@@ -68,10 +69,11 @@
         }
 
         .tachon-azul{
-            width: 80px;
+            width: 100px;
             position: absolute;
-            top: -70px;
-            right: -60px;
+            top: 20px;
+            right: 50px;
+            padding-right: 20px;
         }
 
         h1{
@@ -80,6 +82,7 @@
             color: #1d1d1d;
             letter-spacing: 6px;
             text-transform: uppercase;
+            text-align: center;
         }
 
         .punto-azul{
@@ -97,13 +100,17 @@
             color: #1d1d1d;
             letter-spacing: 3px;
             @media (max-width: 950px){
-                margin: 45px 0 40px ;
-                width: 92%;
+                margin: 35px 0 0;
+                width:75%;
+ 
             }
         }
 
         .linea-azul{
             width: 120px;
+            @media (max-width: 950px){
+                width: 200px;
+            }
         }
 
         a{

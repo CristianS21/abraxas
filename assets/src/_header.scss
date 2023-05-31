@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-.contenedor-1 {
-    background-color: #1d1d1d;
-}
+
 
 .contenido-1{
     
@@ -11,10 +9,22 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-color: #1d1d1d;
+        z-index: 100;
+        padding: 0px 50px;
+                @media (max-width: 950px){
+                padding: 0px;}
 
             .logo{
             width: 230px;
             padding: 0 0 0 30px;
+            @media (max-width: 650px){
+                width: 190px;
+            }
             }
 
             nav {

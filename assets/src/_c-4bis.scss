@@ -1,6 +1,5 @@
 .contenedor-4bis{
     background: #1d1d1d;
-
     padding: 80px 0 96px;
 }
 
@@ -13,6 +12,9 @@
         letter-spacing: 6px;
         margin-bottom: 55px;
         text-transform: uppercase;
+        @media (max-width: 1145px){
+            margin-bottom: 25px;
+        }
 
     }
     .modulos{
@@ -21,11 +23,22 @@
         justify-content: space-between;
         /*background-color: rgba(233, 233, 233, 0.1);
         background-blend-mode: soft-light;*/
-        
+        @media (max-width: 1145px){
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
       
         .c4bis-fotos1{
             padding: 10px 10px 10px 30px;
             width: 60%;
+            @media (max-width: 1145px){
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px 4px;
+            }
 
             img{
                 width: 200px;
@@ -45,6 +58,9 @@
             align-items: center;
             justify-content: center;
             padding: 25px;
+            @media (max-width: 1145px){
+                width: 80%;
+            }
 
             h3{
                 font-family: 'Shadows Into Light', cursive;
@@ -54,9 +70,10 @@
             }
 
             .raya-fucsia{
-                width: 30%;
+                width: 140px;
                 margin-top: -20px;
                 height: 40px;
+               
             }
 
             p{
@@ -72,16 +89,26 @@
 
     }
 
-
     .proceso{
         display: flex;
         justify-content: space-between;
         margin: 65px 0;
+        @media (max-width: 1145px){
+            flex-direction: column;
+            align-items: center;
+        }
 
 
         .c4bis-fotos2{
             padding: 10px 10px 10px 30px;
             width: 60%;
+            @media (max-width: 1145px){
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px 4px;
+            }
 
             img{
                 width: 200px;
@@ -101,6 +128,9 @@
             align-items: center;
             justify-content: center;
             padding: 25px;
+            @media (max-width: 1145px){
+                width: 80%;
+            }
 
             h3{
                 font-family: 'Shadows Into Light', cursive;
@@ -110,7 +140,7 @@
             }
            
             .raya-fucsia{
-                width: 30%;
+                width: 140px;
                 margin-top: -20px;
                 height: 40px;
             }
@@ -127,20 +157,28 @@
         }
     }
 
-
-
-
     .sintesis{
         
         display: flex;
         justify-content: space-between;
         /*background-color: rgba(233, 233, 233, 0.1);
         background-blend-mode: soft-light;*/
+        @media (max-width: 1145px){
+            flex-direction: column-reverse;
+            align-items: center;
+        }
         
       
         .c4bis-fotos3{
             padding: 10px 10px 10px 30px;
             width: 60%;
+            @media (max-width: 1145px){
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px 4px;
+            }
 
             img{
                 width: 200px;
@@ -160,6 +198,9 @@
             align-items: center;
             justify-content: center;
             padding: 25px;
+            @media (max-width: 1145px){
+                width: 80%;
+            }
 
             h3{
                 font-family: 'Shadows Into Light', cursive;
@@ -169,7 +210,7 @@
             }
 
             .raya-fucsia{
-                width: 30%;
+                width: 140px;
                 margin-top: -20px;
                 height: 40px;
             

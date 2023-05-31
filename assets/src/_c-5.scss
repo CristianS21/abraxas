@@ -1,7 +1,6 @@
 .contenedor-5 {
     width: 100%;
      background-color: #1d1d1d;
-   
      display: flex;
      align-items: center;
      justify-content: center;
@@ -42,9 +41,10 @@
             flex-direction: column;
             background-color: #1d1d1d;
             border-radius: 10px;
+            width: 90%;
 
             .acordeon{
-                width: 700px;
+                width: 90%;
                 border-bottom: 1px solid rgb(238, 79, 233);
                 padding: 20px;
                 margin-bottom: 15px;  

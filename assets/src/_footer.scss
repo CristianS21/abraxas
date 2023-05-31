@@ -7,40 +7,79 @@
     padding: 40px 0px 0px;
     overflow: hidden;
     position: relative;
+    @media (max-width: 680px){
+        padding: 0px;
+        height: 270px;
+    }
 
     .medusa-1{
-        width: 370px;
+        width: 310px;
         margin-top: 50px;
         transform: rotate(30deg);
-        margin-left: -50px;
+        margin-left: -60px;
+        @media (max-width: 1150px){
+            width: 200px;
+        }
+        @media (max-width: 680px){
+            width: 130px;
+            margin-left: -30px;
+        }
     }
+    
     .medusa-1bis{
-        width: 220px;
+        width: 200px;
         margin-top: 50px;
         transform: rotate(5deg);
         position: absolute;
         bottom: -50px;
-        left: 220px;
-
+        left: 150px;
+        @media (max-width: 1150px){
+            width: 140px;
+            left: 60px;
+        }
+        @media (max-width: 680px){
+            width: 105px;
+            bottom: 0px;
+            left: 10px;
+        }
     }
 
     .medusa-2{
-        width: 370px;
+        width: 340px;
         margin-top: 50px;
         margin-right: -20px;
+        @media (max-width: 1150px){
+            width: 180px;
+        }
+        @media (max-width: 680px){
+            width: 140px;
+        }
+
     }
+
     .medusa-2bis{
-        width: 220px;
+        width: 150px;
         margin-top: 50px;
         position: absolute;
         bottom: -50px;
         right: 230px;
         transform: rotate(30deg);
-
+        @media (max-width: 1150px){
+            right: 85px; 
+        }
+        @media (max-width: 680px){
+            width: 75px;
+            right: 50px;
+            bottom: 10px;
+        }
     }
 
     .logo-footer{
-        width: 250px;
+        width: 230px;
+        @media (max-width: 1150px){
+            width: 170px;
+        }
+        
     }
 
     .trama-izq{
@@ -58,6 +97,7 @@
         justify-content: center;
         padding: 15px;
         margin-top: 40px;
+        margin-left: 20px;
 
         hr{
             height: 1px;
@@ -65,11 +105,14 @@
             background-color: rgb(73, 244, 16);
             border: none;
             margin: 5px 0px 12px;
+            @media (max-width: 1550px){
+                width: 250px;
+            }
         }
 
         p{
             font-family: 'Shadows Into Light', cursive;
-            font-size: 20px;
+            font-size: 18px;
             text-align: center;
             letter-spacing: 4px;
             color: rgb(249, 10, 106);
