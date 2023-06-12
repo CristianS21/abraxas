@@ -23,7 +23,7 @@
     
         
         h2{
-            width: 310px;
+            padding: 5px 15px;
             text-align: center;
             font-family: 'Shadows Into Light', cursive;
             color:white;
@@ -33,24 +33,26 @@
             text-transform: uppercase;
             background-color: #1d1d1d;
             border-radius: 12px;
+            
         }
 
         
         .acordeones{
             display: flex;
             flex-direction: column;
+            text-align: center;
             background-color: #1d1d1d;
             border-radius: 10px;
             width: 90%;
 
             .acordeon{
-                width: 90%;
+                width: 100%;
                 border-bottom: 1px solid rgb(238, 79, 233);
                 padding: 20px;
                 margin-bottom: 15px;  
                 display: flex; 
                 align-items: center;
-                font-family: 'Kanit', sans-serif;
+                font-family: 'Poppins', sans-serif;
                 font-size: 18px;
                 letter-spacing: 1px;
                 summary{
